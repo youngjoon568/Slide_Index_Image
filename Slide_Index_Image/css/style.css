@@ -1,0 +1,9 @@
+* {margin: 0;padding: 0;text-decoration: none;list-style: none;color: inherit;}
+html,body {font-size: 10px;}
+body {background: #eee;color: #444;padding: 50px;}
+.title {font-size: 3rem;font-weight: 400;margin-bottom: 80px;}
+.controller {width: 400px;height: 35px;display: flex;justify-content: space-between;}
+.controller li {width: 35px;height: 35px;background: #fff;border-radius: 20px;transition: .5s;}
+.on {width: 80px !important;background: cornflowerblue !important;}
+.picture ul li {position: absolute;opacity: 0;transition: .5s;margin-top: 30px;}
+.active {opacity: 1 !important;}
